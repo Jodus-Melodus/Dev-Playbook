@@ -1,6 +1,6 @@
 # Docker Templates
 
-## C++
+## C/C++
 ```dockerfile
 FROM ubuntu:24.04
 
