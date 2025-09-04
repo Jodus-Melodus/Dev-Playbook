@@ -1,4 +1,4 @@
-# Git-and-terminal-guide
+# Dev Playbook
 
 ## Table of Contents
 
