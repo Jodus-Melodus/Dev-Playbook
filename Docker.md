@@ -1,4 +1,6 @@
 # Docker
+You can view some Docker templates [here](DockerTemplates.md).
+
 ## Setup Docker
 ### Install
 1. Install [Docker](https://www.docker.com/).
