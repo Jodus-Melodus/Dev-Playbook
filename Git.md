@@ -1,10 +1,13 @@
 # Git
-## Cloning a Git repository
-1. Copy the repository URL
-<img width="452" height="376" alt="image" src="https://github.com/user-attachments/assets/ea31c29b-53c9-47d7-b962-f778a8d17a3e" />
-2. Navigate to the directory
-Go to the directory to which you want to clone the repository.
-4. Clone the repository
+
+## Cloning a repository
+This will automatically connect a remote to the GitHub repository.
+1. Navigate to the repository and click on the green Code button.
+<img width="407" height="372" alt="image" src="https://github.com/user-attachments/assets/a5389d18-0045-484a-a98b-68a30ef7e810" />
+
+2. Copy the repository link.
+3. On your local machine, navigate to where you would like to clone and open a terminal by right-clicking and clicking on `Open in Terminal`.
+4. Type the following command in your terminal.
 ```bash
-git clone <URL of the repository that you want to clone>
+git clone <the-link-to-the-repository-you-copied>
 ```
