@@ -1,6 +1,6 @@
 # Project setup
 
-## C/C++ Project setup
+## C/C++ Setup
 ![Language](https://img.shields.io/badge/language-C/C++-brightgreen)
 ![CMake](https://img.shields.io/badge/build-CMake-blue)
 1. Ensure you have the following VS Code extensions installed.
