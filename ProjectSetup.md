@@ -10,7 +10,7 @@
 - Directory `include` for your header (`.h/.hpp`) files.
 - Directory `src` for your implementation (`.c/.cpp`) files.
 - `CMakeLists.txt`
-3. Copy this template into your `CMakeListsFile.txt`
+3. Copy this template into your `CMakeListsFile.txt` file.
 ```cmake
 cmake_minimum_required(VERSION 3.16)
 project(<project name>)
@@ -27,4 +27,4 @@ Replace <project name> and <executable file name> with your desired names.
 
 4. Press `F1` and type the following: `Cmake: Configure`
 5. Press `F1` and type the following: `Cmake: Build`
-6. Use the `⚙️Build` button to build your file, the `🪲` button to debug your project, and the `▶️` button to run your project.
+6. Use the `⚙️Build` button to build your file, the `🪲` button to debug your project, and the `▶️` button to run your project, located in the status bar at the left bottom.
