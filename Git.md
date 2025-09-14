@@ -11,3 +11,18 @@ This will automatically connect a remote to the GitHub repository.
 ```bash
 git clone <the-link-to-the-repository-you-copied>
 ```
+
+## Committing and pushing
+1. Add all your files to the commit
+```bash
+git add .
+```
+2. Commit
+```bash
+git commit -m "<commit message>"
+```
+Replace `<commit message>` with your commit message
+3. Push to the repository (if your repository is on GitHub)
+```bash
+git push
+```
