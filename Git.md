@@ -1,4 +1,33 @@
 # Git
+Frequently used Git commands.
+
+# Table of Contents
+- [Creating a local repository](#creating-a-local-repository)
+- [Cloning a repository](#cloning-a-repository)
+- [Committing and pushing](#committing-and-pushing)
+
+## Creating a local repository
+1. Create a new directory for your project and navigate into it.
+2. Initialize the repository with the following command.
+```bash
+git init
+```
+3. Add files
+```bash
+git add .
+```
+4. Commit changes
+```bash
+git commit -m "init"
+```
+5. (Optional) Link to remote
+   If you want to push to GitHub
+```bash
+git remote add origin <github path to your repository>
+git push -u origin master
+```
+Replace `<github path to your repository>` with your GitHub path to the repository.
+E.g. `https://github.com/your-username/your-repo.git`
 
 ## Cloning a repository
 This will automatically connect a remote to the GitHub repository.
