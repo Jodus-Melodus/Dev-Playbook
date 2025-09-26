@@ -9,6 +9,7 @@
 2. Create the following in your main directory:
 - Directory `include` for your header (`.h/.hpp`) files.
 - Directory `src` for your implementation (`.c/.cpp`) files.
+- Create a `main.c`/`main.cpp` file in the `src` directory with your main function.
 - File `CMakeLists.txt`
 3. Copy this template into your `CMakeListsFile.txt` file:
 ```cmake
@@ -26,5 +27,6 @@ include_directories(include)
 Replace `<project name>` and `<executable file name>` with your desired names.
 
 4. Press `F1` and type the following, followed by an enter: `Cmake: Configure`
-5. Press `F1` and type the following, followed by an enter: `Cmake: Build`
-6. Use the `⚙️Build` button to build your project, the `🪲` button to debug your project, and the `▶️` button to run your project, located in the status bar at the bottom left.
+5. Select the compiler you want to use.
+6. Press `F1` and type the following, followed by an enter: `Cmake: Build`
+7. Use the `⚙️Build` button to build your project, the `🪲` button to debug your project, and the `▶️` button to run your project, located in the status bar at the bottom left.
